@@ -1,5 +1,5 @@
-let discordtoken = "MTM4OTQ2MTk3MTM1ODg0NzAyNg.GRGhGK.3SsBxect-TGt3XXxsvWJoXe2B0wbnMraLYMP_c"
-let clientId = '1389461971358847026';
+let discordtoken = process.env.DISCORD_TOKEN
+let clientId = process.env.CLIENT_ID
 
 
 const express = require('express');
